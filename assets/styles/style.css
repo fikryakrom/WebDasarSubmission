@@ -18,13 +18,11 @@
     font-size: 1.2rem;
     position: sticky;
     top: 0;
-    z-index: 999;
 }
 .navbar__container {
     display: flex;
     justify-content: space-between;
     height: 80px;
-    z-index: 1;
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
@@ -72,7 +70,6 @@
         display: flex;
         justify-content: space-between;
         height: 80px;
-        z-index: 1;
         width: 100%;
         max-width: 1300px;
         padding: 0;
@@ -86,14 +83,12 @@
         top: -1000px;
         opacity: -1;
         transition: all 0.5s ease;
-        z-index: -1;
     }
     .navbar__menu.active {
         background: #131313;
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
-        z-index: 99;
         height: 60vh;
         font-size: 1.6rem;
     }
@@ -217,7 +212,6 @@
     justify-content: center;
     margin: 0 auto;
     height: 90%;
-    z-index: 1;
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
@@ -274,7 +268,6 @@
 }
 .main__button a {
     position: relative;
-    z-index: 2;
     color: white;
     text-decoration: none;
 }
