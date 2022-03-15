@@ -24,7 +24,7 @@ const highlightMenu = () => {
     let scrollPos = window.scrollY;
     console.log(scrollPos);
 
-    // adding highlight class to menu items
+    // adding 'highlight' class to menu items (in desktop mode)
     if(window.innerWidth > 960 && scrollPos < 600) {
         homeMenu.classList.add('highlight');
         natureMenu.classList.remove('highlight');
@@ -36,9 +36,10 @@ const highlightMenu = () => {
         return;
     } else if(window.innerWidth > 960 && scrollPos < 2345) {
         attractionMenu.classList.add('highlight');
-        natureMenu.classList.add('highlight');
+        natureMenu.classList.remove('highlight');
         return;
     }
+    // removing 'highlight' class from menu items (in mobile mode)
     if((elementHighlight && window.innerWidth < 960 && scrollPos < 600) || elementHighlight) {
         elementHighlight.classList.remove('highlight')
     }
