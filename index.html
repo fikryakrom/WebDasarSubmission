@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/style.css">
-    <script src="https://kit.fontawesome.com/a698897907.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome Icon
+    <script src="https://kit.fontawesome.com/a698897907.js" crossorigin="anonymous"></script> -->
     <title>Malang Experience</title>
 </head>
 <body>
     <header>
-        <!-- Hero Section -->
-        <div class="hero" id="home">
-            <div class="hero__container">
-                <h1 class="hero__heading"><span>Experience</span> the beauty of <span>Malang</span></h1>
-                <p class="hero__description">Bumi Arema, Kota Pendidikan</p>
+        <!-- Jumbotron Section -->
+        <div class="jumbotron" id="home">
+            <div class="jumbotron__container">
+                <h1 class="jumbotron__heading"><span>Experience</span> the beauty of <span>Malang</span></h1>
+                <p class="jumbotron__description">The Greater Metropolitan Area in East Java</p>
                 <button class="main__button"><a href="#">Go Explore</a></button>
             </div>
         </div>
+        
         <!-- Navigation Bar Section -->
         <nav class="navbar">
             <div class="navbar__container">
@@ -48,103 +50,198 @@
         </nav>
     </header>
     
-    <!-- Nature Section -->
+    <!-- Main Section -->
     <div class="main" id="nature">
         <div class="main__container">
             <div class="main__img--container">
                 <div class="main__img--card"><i class="fas fa-layer-group"></i></div>
             </div>
             <div class="main__content">
-                <h1>Nature (What do we do?)</h1>
-                <h2>We help businesses scale</h2>
+                <h1>More to know about Malang</h1>
+                <h2>Formerly known as <em>Karesidenan Malang</em> </h2>
                 <p>Schedule a call to learn more about our services</p>
                 <button class="main__button"><a href="#">Schedule a Call</a></button>
             </div>
         </div>
     </div>
+
+    <!-- Nature Section -->
+    <div class="nature" id="nature">
+        <div class="nature__heading">
+            <h1>Enjoy Malang's Natures and Wildlifes</h1>
+            <p>With an area spread from X to Indian Ocean, Malang filled with multi-diverse naturals and wildlifes wealth</p>
+            <h3>Seek it for yourself</h3>
+        </div>
+        <div class="nature__container">
+            <!-- Kode icon font awesome
+            <div class="nature__img--container">
+                <div class="nature__img--card"><i class="fas fa-layer-group"></i></div>
+            </div>
+            -->
+            <div class="nature__card" id="waterfalls">
+                <div class="nature__card--header animated-bg">
+                    <img src="https://images.pexels.com/photos/2544854/pexels-photo-2544854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="">
+                </div>
+                <div class="nature__card--content">
+                  <h3 class="nature__card--title animated-bg animated-bg-text">Waterfalls</h3>
+                  <p class="nature__card--desc">
+                      Hundreds of stunningly gorgeous waterfalls with pure water and cool breeze, suited Malang's daily temperature. It's a local pride destination!
+                      <span class="class animated-bg animated-bg-text">&nbsp;</span>
+                      <span class="class animated-bg animated-bg-text">&nbsp;</span>
+                      <span class="class animated-bg animated-bg-text">&nbsp;</span>
+                    </p>
+                </div>
+            </div>
+            <div class="nature__card" id="beaches">
+                <div class="nature__card--header animated-bg">
+                    <img src="https://images.pexels.com/photos/315998/pexels-photo-315998.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
+                </div>
+                <div class="nature__card--content">
+                  <h3 class="nature__card--title animated-bg animated-bg-text">Beaches</h3>
+                  <p class="nature__card--desc">
+                      Looking for a world class beach? Private beach for private occasion? Malang definitely has those! Visit and enjoy the long shore of the Southern Beaches.
+                      <span class="class animated-bg animated-bg-text">&nbsp;</span>
+                      <span class="class animated-bg animated-bg-text">&nbsp;</span>
+                      <span class="class animated-bg animated-bg-text">&nbsp;</span>
+                    </p>
+                </div>
+            </div>
+            <div class="nature__card" id="mountains">
+                <div class="nature__card--header animated-bg">
+                    <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
+                </div>
+                <div class="nature__card--content">
+                  <h3 class="nature__card--title animated-bg animated-bg-text">Mountains</h3>
+                  <p class="nature__card--desc">
+                      Interested in mountain hiking? Some trekking and climbing? FYI, Malang is home to the highest point accross Java, Mahameru Summit!
+                      <span class="class animated-bg animated-bg-text">&nbsp;</span>
+                      <span class="class animated-bg animated-bg-text">&nbsp;</span>
+                      <span class="class animated-bg animated-bg-text">&nbsp;</span>
+                    </p>
+                </div>
+            </div>
+            <div class="nature__card" id="gardens">
+                <div class="nature__card--header animated-bg">
+                    <img src="https://images.pexels.com/photos/392100/pexels-photo-392100.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="">
+                </div>
+                <div class="nature__card--content">
+                  <h3 class="nature__card--title animated-bg animated-bg-text">Gardens</h3>
+                  <p class="nature__card--desc">
+                      Apel Malang is definitely one of the most iconic fruit in this country. See if you can experience self-picking service in lots of garden accross Malang plateau
+                      <span class="class animated-bg animated-bg-text">&nbsp;</span>
+                      <span class="class animated-bg animated-bg-text">&nbsp;</span>
+                      <span class="class animated-bg animated-bg-text">&nbsp;</span>
+                    </p>
+                </div>
+            </div>
+            <!--
+            <div class="nature__wrapper">
+                <div class="nature__card">
+                    <h2 class="nature__card--title animated-bg animated-bg-text" id="title">Waterfalls</h2>
+                    <p>Hundreds of stunningly gorgeous waterfalls with pure water and cool breeze, suited Malang's daily temperature. It's a local pride destination</p>
+                    <div class="nature__button"><button>Tombol</button></div>
+                </div>
+                <div class="nature__card">
+                    <h2>Beaches</h2>
+                    <p>X</p>
+                    <div class="nature__button"><button>Tombol</button></div>
+                </div>
+                <div class="nature__card">
+                    <h2>Mountains</h2>
+                    <p>X</p>
+                    <div class="nature__button"><button>Tombol</button></div>
+                </div>
+                <div class="nature__card">
+                    <h2>Gardens & Ranches</h2>
+                    <p>X</p>
+                    <div class="nature__button"><button>Tombol</button></div>
+                </div>
+            </div> -->
+        </div>
+    </div> 
     
-    <!-- Attraction Section -->
+    <!-- Attraction Section
     <div class="attraction" id="attraction">
         <h1>Attraction (Our Services)</h1>
         <div class="attraction__wrapper">
             <div class="attraction__card">
                 <h2>Custom Colorways</h2>
                 <p>AI Powered Technology</p>
-                <div class="attraction__button"><button>Get Started (Attraction)</button></div>
+                <div class="attraction__button"><button>Tombolion)</button></div>
             </div>
             <div class="attraction__card">
                 <h2>Are you ready?</h2>
                 <p>Take the leap</p>
-                <div class="attraction__button"><button>Get Started (Attraction)</button></div>
+                <div class="attraction__button"><button>Tombolion)</button></div>
             </div>
             <div class="attraction__card">
                 <h2>Full Gradients</h2>
                 <p>100 Combination</p>
-                <div class="attraction__button"><button>Get Started (Attraction)</button></div>
+                <div class="attraction__button"><button>Tombolion)</button></div>
             </div>
             <div class="attraction__card">
                 <h2>Infinite Choices</h2>
                 <p>1000's thousands of color</p>
-                <div class="attraction__button"><button>Get Started (Attraction)</button></div>
+                <div class="attraction__button"><button>Tombolion)</button></div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <!-- Culture Section -->
+    <!-- Culture Section 
     <div class="culture" id="culture">
         <h1>Culture (Our Services)</h1>
         <div class="culture__wrapper">
             <div class="culture__card">
                 <h2>Custom Colorways</h2>
                 <p>AI Powered Technology</p>
-                <div class="culture__button"><button>Get Started (Culture)</button></div>
+                <div class="culture__button"><button>Tombol)</button></div>
             </div>
             <div class="culture__card">
                 <h2>Are you ready?</h2>
                 <p>Take the leap</p>
-                <div class="culture__button"><button>Get Started (Culture)</button></div>
+                <div class="culture__button"><button>Tombol)</button></div>
             </div>
             <div class="culture__card">
                 <h2>Full Gradients</h2>
                 <p>100 Combination</p>
-                <div class="culture__button"><button>Get Started (Culture)</button></div>
+                <div class="culture__button"><button>Tombol)</button></div>
             </div>
             <div class="culture__card">
                 <h2>Infinite Choices</h2>
                 <p>1000's thousands of color</p>
-                <div class="culture__button"><button>Get Started (Culture)</button></div>
+                <div class="culture__button"><button>Tombol)</button></div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <!-- Cullinary Section -->
+    <!-- Cullinary Section 
     <div class="cullinary" id="cullinary">
         <h1>Cullinary (Our Services)</h1>
         <div class="cullinary__wrapper">
             <div class="cullinary__card">
                 <h2>Custom Colorways</h2>
                 <p>AI Powered Technology</p>
-                <div class="cullinary__button"><button>Get Started (Cullinary)</button></div>
+                <div class="cullinary__button"><button>Tombolry)</button></div>
             </div>
             <div class="cullinary__card">
                 <h2>Are you ready?</h2>
                 <p>Take the leap</p>
-                <div class="cullinary__button"><button>Get Started (Cullinary)</button></div>
+                <div class="cullinary__button"><button>Tombolry)</button></div>
             </div>
             <div class="cullinary__card">
                 <h2>Full Gradients</h2>
                 <p>100 Combination</p>
-                <div class="cullinary__button"><button>Get Started (Cullinary)</button></div>
+                <div class="cullinary__button"><button>Tombolry)</button></div>
             </div>
             <div class="cullinary__card">
                 <h2>Infinite Choices</h2>
                 <p>1000's thousands of color</p>
-                <div class="cullinary__button"><button>Get Started (Cullinary)</button></div>
+                <div class="cullinary__button"><button>Tombolry)</button></div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <!-- Features Section -->
+    <!-- Features Section 
     <div class="main" id="sign-up">
         <div class="main__container">
             <div class="main__content">
@@ -157,9 +254,9 @@
                 <div class="main__img--card" id="card-2"><i class="fas fa-users"></i></div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <!-- Footer Section -->
+    <!-- Footer Section
     <div class="footer__container">
         <div class="footer__links">
             <div class="footer__link--wrapper">
@@ -216,7 +313,46 @@
                 </div>
             </div>    
         </section>    
-    </div>
+    </div> -->
+    
+    <!-- Aside
+    <aside>
+        <article class="profile card">
+            <header>
+                <h2>Kota Bandung</h2>
+                <p>Kota Kembang Paris van Java</p>
+                <figure>
+                    <img src="assets/image/bandung-badge.png">
+                    <figcaption>Lambang</figcaption>
+                </figure>
+            </header>
+            <section>
+                <h3>Informasi Lainnya</h3>
+                <table>
+                    <tr>
+                        <th>Negara</th>
+                        <td>Indonesia</td>
+                    </tr>
+                    <tr>
+                        <th>Hari jadi</th>
+                        <td>25 September 1810</td>
+                    </tr>
+                    <tr>
+                        <th>Luas Total</th>
+                        <td>167.67 km<sup>2</sup></td>
+                    </tr>
+                    <tr>
+                        <th>Bahasa Daerah</th>
+                        <td>Sunda</td>
+                    </tr>
+                    <tr>
+                        <th>Kode Telepon</th>
+                        <td>+62 22</td>
+                    </tr>
+                </table>
+            </section>
+        </article>
+    </aside> -->
     <script src="/assets/expmalang.js"></script>
 </body>
 </html>
