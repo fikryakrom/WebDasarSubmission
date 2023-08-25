@@ -19,7 +19,7 @@ img {
     max-width: 100%;
 }
 #main_header {
-    background-image: url("/assets/images/angkot_malang.jpg");
+    background-image: url("https://cdn.discordapp.com/attachments/981178536448639016/981178782188707860/angkot_malang.jpg");
     background-size: cover;
     background-position: center;
 }
